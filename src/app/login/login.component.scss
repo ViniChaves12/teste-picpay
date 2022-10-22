@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    // max-width: 1024px;
+    margin: 0 auto;
+}
+
+.form {
+    background-color: #f2f2f2;
+    width: 100%;
+    max-width: 540px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__area {
+        margin-top: 33px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 368px;
+
+        input {
+            margin-bottom: 36px;
+        }
+    }
+}
+
+.logo {
+    margin-bottom: 18px;
+}
+
+.image {
+    height: 100%;
+}
+
+h1 {
+    //font-family: ;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36.57px;
+    color: #333333;
+}
